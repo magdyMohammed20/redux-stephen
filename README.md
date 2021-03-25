@@ -14,3 +14,6 @@
 
     - Create [selectSong] Action Creator Inside /Actions/index.js File
     - Import [selectSong] Action Inside App.js
+
+    - Create [songsReducer] Reducer Inside /Reducers/index.js File
+    - Create [selectedSongReducer] Reducer Inside /Reducers/index.js File
