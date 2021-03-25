@@ -15,15 +15,13 @@ function SongsList(props) {
     return (
         <div>
             {renderList()}
-            {(props.selectedSong && props.selectSong !== null) && "Selected Song Is:" + props.selectedSong.name}
         </div>
     )
 }
 
 const mapStateToProps = state => {
     return {
-        songs: state.songs,
-        selectedSong: state.selectedSong
+        songs: state.songs
     }    
 }
 

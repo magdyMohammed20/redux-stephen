@@ -36,3 +36,7 @@
     - Pass [selectSong] Action To connect Method
     - Use [selectSong] With Select Song Button 
     - Fetch Selected Song Inside mapStateToProps In [SongsList.js]
+
+    - Create [SongDetail.js] Component Inside ./src/Components/
+    - Import [SongDetail.js] Component In App.js
+    
