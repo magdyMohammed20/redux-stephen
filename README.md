@@ -31,3 +31,8 @@
     - Inside [SongsList.js] Use connect() And Pass mapStateToProps To It
 
     - Inside SongsList Component Create [renderList] Function For Display Songs Data
+
+    - Import [selectSong] Action Inside [SongsList.js]
+    - Pass [selectSong] Action To connect Method
+    - Use [selectSong] With Select Song Button 
+    - Fetch Selected Song Inside mapStateToProps In [SongsList.js]
