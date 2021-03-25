@@ -23,3 +23,7 @@
     - Import [Provider , createStore] Inside ./src/index.js
     - Import All Created Reducers From /Reducers/index.js File Inside ./src/index.js
     - Setup Provider , createStore , Reducers With Each Other Inside ./src/index.js
+
+    - Create [SongsList.js] Component Inside [Components] Folder
+    - Import [SongsList.js] Inside App.js
+    - Import [connect] Inside [SongsList.js]
