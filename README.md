@@ -29,3 +29,5 @@
     - Import [connect] Inside [SongsList.js]
 
     - Inside [SongsList.js] Use connect() And Pass mapStateToProps To It
+
+    - Inside SongsList Component Create [renderList] Function For Display Songs Data
