@@ -1,7 +1,7 @@
 import React from 'react'
 import {connect} from 'react-redux'
 
-function SongsList() {
+function SongsList(props) {
     return (
         <div>
             SongsList
@@ -9,4 +9,10 @@ function SongsList() {
     )
 }
 
-export default connect()(SongsList)
+const mapStateToProps = state => {
+    return {
+        songs: state.songs
+    }    
+}
+
+export default connect(mapStateToProps)(SongsList)

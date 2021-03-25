@@ -27,3 +27,5 @@
     - Create [SongsList.js] Component Inside [Components] Folder
     - Import [SongsList.js] Inside App.js
     - Import [connect] Inside [SongsList.js]
+
+    - Inside [SongsList.js] Use connect() And Pass mapStateToProps To It
