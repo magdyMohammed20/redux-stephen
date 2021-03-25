@@ -8,3 +8,9 @@
     - Components
     
     - Reducers
+
+
+## Steps Of App
+
+    - Create [selectSong] Action Creator Inside /Actions/index.js File
+    - Import [selectSong] Action Inside App.js
